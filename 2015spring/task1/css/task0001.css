@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding: 0;
+}
+h1{
+	color: blue;
+}
+h2{
+	font-size: 14px;
+}
+p{
+	font-size:12px;
+	color: yellow;
+	background: black;
+}
+img{
+	border: 1px solid red;
+	display: block;
+
+}
+.left{
+	width: 400px;
+	height: 50px;
+	background: red;
+	float:left;
+}
+
+.middle{
+
+	margin-right: 400px;
+    margin-left: 400px;
+    height: 50px;
+    background: blue;
+}
+.right{
+	width: 400px;
+	height: 50px;
+	float: right;
+	background: yellow;
+}
+.cir{
+	width: 800px;
+	height: 100px;
+}
+.r1{
+	background: black;
+	height: 1px;
+	margin: 0px 5px;
+}
+.r2{
+	height: 1px;
+	margin:0px 3px;
+	border-right:  2px solid black;
+	border-left: 2px solid black;
+}
+.r3{
+	height: 1px;
+	margin:0px 2px;
+	border-right:  1px solid black;
+	border-left: 1px solid black;
+}
+.r4{
+	height: 2px;
+	margin:0px 1px;
+	border-right:  1px solid black;	
+	border-left: 1px solid black;
+}
+.main{
+	height: 20px;
+	margin: 0px;
+	border-right:  1px solid black;	
+	border-left: 1px solid black;
+}
+.out{
+	margin: 20px;
+	background: red;
+	overflow: hidden;
+}
+.float_block{
+	float: left;
+	margin: 10px;
+	height: 40px;
+	width: 200px;
+	background: blue;
+}
